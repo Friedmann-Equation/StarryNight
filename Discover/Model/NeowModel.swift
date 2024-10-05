@@ -2,7 +2,7 @@
 //  NeowModel.swift
 //  StarryNight
 //
-//  Created by Pelangi Masita Wati on 17/08/24.
+//  Created by Pelangi Masita Wati on 05/10/24.
 //
 
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
