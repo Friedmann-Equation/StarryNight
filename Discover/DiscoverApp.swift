@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
-struct DiscoverApp: App {
+struct carbonPrintApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
         }
+        .modelContainer(for: DataItem.self)
     }
 }

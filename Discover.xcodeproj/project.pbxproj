@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		FDBF4FAB2CB1122000C533AD /* DiscoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FAA2CB1122000C533AD /* DiscoverApp.swift */; };
-		FDBF4FAD2CB1122000C533AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FAC2CB1122000C533AD /* ContentView.swift */; };
 		FDBF4FAF2CB1122100C533AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBF4FAE2CB1122100C533AD /* Assets.xcassets */; };
 		FDBF4FB22CB1122100C533AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBF4FB12CB1122100C533AD /* Preview Assets.xcassets */; };
+		FDBF4FBC2CB113C900C533AD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FBB2CB113C900C533AD /* MenuView.swift */; };
+		FDBF4FBE2CB1146400C533AD /* ResultNeowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FBD2CB1146400C533AD /* ResultNeowView.swift */; };
+		FDBF4FC02CB1148600C533AD /* InputNeowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FBF2CB1148600C533AD /* InputNeowView.swift */; };
+		FDBF4FC22CB1149C00C533AD /* ApodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FC12CB1149C00C533AD /* ApodView.swift */; };
+		FDBF4FC42CB1152200C533AD /* ApodApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FC32CB1152200C533AD /* ApodApi.swift */; };
+		FDBF4FC62CB1154C00C533AD /* NeowApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FC52CB1154C00C533AD /* NeowApi.swift */; };
+		FDBF4FC82CB1157E00C533AD /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FC72CB1157E00C533AD /* DataItem.swift */; };
+		FDBF4FCA2CB115BA00C533AD /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FC92CB115BA00C533AD /* DataModel.swift */; };
+		FDBF4FCC2CB115F500C533AD /* NeowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBF4FCB2CB115F500C533AD /* NeowModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDBF4FA72CB1122000C533AD /* Discover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBF4FAA2CB1122000C533AD /* DiscoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverApp.swift; sourceTree = "<group>"; };
-		FDBF4FAC2CB1122000C533AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDBF4FAE2CB1122100C533AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDBF4FB12CB1122100C533AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDBF4FBB2CB113C900C533AD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FDBF4FBD2CB1146400C533AD /* ResultNeowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultNeowView.swift; sourceTree = "<group>"; };
+		FDBF4FBF2CB1148600C533AD /* InputNeowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNeowView.swift; sourceTree = "<group>"; };
+		FDBF4FC12CB1149C00C533AD /* ApodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodView.swift; sourceTree = "<group>"; };
+		FDBF4FC32CB1152200C533AD /* ApodApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodApi.swift; sourceTree = "<group>"; };
+		FDBF4FC52CB1154C00C533AD /* NeowApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeowApi.swift; sourceTree = "<group>"; };
+		FDBF4FC72CB1157E00C533AD /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		FDBF4FC92CB115BA00C533AD /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		FDBF4FCB2CB115F500C533AD /* NeowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeowModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,10 @@
 		FDBF4FA92CB1122000C533AD /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				FDBF4FBA2CB1139400C533AD /* Model */,
+				FDBF4FB92CB1137F00C533AD /* API */,
+				FDBF4FB82CB1135300C533AD /* Views */,
 				FDBF4FAA2CB1122000C533AD /* DiscoverApp.swift */,
-				FDBF4FAC2CB1122000C533AD /* ContentView.swift */,
 				FDBF4FAE2CB1122100C533AD /* Assets.xcassets */,
 				FDBF4FB02CB1122100C533AD /* Preview Content */,
 			);
@@ -65,6 +83,36 @@
 				FDBF4FB12CB1122100C533AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDBF4FB82CB1135300C533AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF4FBB2CB113C900C533AD /* MenuView.swift */,
+				FDBF4FBD2CB1146400C533AD /* ResultNeowView.swift */,
+				FDBF4FBF2CB1148600C533AD /* InputNeowView.swift */,
+				FDBF4FC12CB1149C00C533AD /* ApodView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDBF4FB92CB1137F00C533AD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF4FC32CB1152200C533AD /* ApodApi.swift */,
+				FDBF4FC52CB1154C00C533AD /* NeowApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FDBF4FBA2CB1139400C533AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF4FC72CB1157E00C533AD /* DataItem.swift */,
+				FDBF4FC92CB115BA00C533AD /* DataModel.swift */,
+				FDBF4FCB2CB115F500C533AD /* NeowModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBF4FAD2CB1122000C533AD /* ContentView.swift in Sources */,
+				FDBF4FBC2CB113C900C533AD /* MenuView.swift in Sources */,
+				FDBF4FC22CB1149C00C533AD /* ApodView.swift in Sources */,
+				FDBF4FC82CB1157E00C533AD /* DataItem.swift in Sources */,
+				FDBF4FC42CB1152200C533AD /* ApodApi.swift in Sources */,
+				FDBF4FC62CB1154C00C533AD /* NeowApi.swift in Sources */,
+				FDBF4FBE2CB1146400C533AD /* ResultNeowView.swift in Sources */,
 				FDBF4FAB2CB1122000C533AD /* DiscoverApp.swift in Sources */,
+				FDBF4FC02CB1148600C533AD /* InputNeowView.swift in Sources */,
+				FDBF4FCC2CB115F500C533AD /* NeowModel.swift in Sources */,
+				FDBF4FCA2CB115BA00C533AD /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
